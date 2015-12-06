@@ -33,7 +33,7 @@ h2{
 }
 
 h3:hover{
-	color:#E02D8A;
+	font-weight: bold;
 	text-decoration: underline;
 	cursor: pointer;
 }
