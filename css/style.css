@@ -1,0 +1,82 @@
+body{
+	background-image: url(../images/background2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Oxygen', Helvetica,	 
+}
+
+/* the .. after url(..) tell you to go out of the file you are in on your drive. each ../ is go back a folder*/
+
+.main{
+	background-color: white;
+	background-color: rgba(235,240,245,0.4);
+	width:600px;
+	margin: 0 auto;
+	padding: 30px;
+	border-radius: 20px;
+	box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.2)
+
+}
+
+
+h1{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-weight: normal;
+	font-family: 'Oxygen', Helvetica,
+
+}
+
+h3:hover{
+	color:#E02D8A;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/* CSS comment*/
+
+/* CSS comment*/
+
+img{
+	width: 150px;
+	height:150px;
+	margin: 0 auto;
+	display: block;
+	border: 5px solid black;
+	border-radius: 50%;
+}
+
+
+/* need to make image a block in order to use auto align (auto margin).
+border radius curves the borders - can you px or %
+*/
+
+p,
+ul,
+ol{
+	line-height: 1.5;
+	padding-left: 0;
+	list-style: none;
+	font-family: 'Oxygen', Helvetica,
+}
+
+
+
+/* . 'dot' in CSS means the same as class in html */
+
+a{
+	color:#000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+/* a:hover changes the text when you hover over it;
